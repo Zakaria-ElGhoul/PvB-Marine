@@ -32,7 +32,7 @@ Latin professor at Hampden-Sydney College in Virginia, looked up one of the more
 
 ![Animation](https://user-images.githubusercontent.com/1262745/217570184-90dc4701-d60d-4816-80d0-5007fdd3f6be.gif)
 
-### flowchart voor enemy wave system:
+### flowchart voor turn based combat system:
 ```mermaid
 
 flowchart TD
