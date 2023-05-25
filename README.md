@@ -5,7 +5,7 @@ In deze repository vind je de informatie over het examen project.
 # Meet the team
 
 * Milan Breuren (Product owner & dev)
-* Zakarai El Ghoul (Lead dev)
+* Zakaria El Ghoul (Lead dev)
 * Nanne Veldhuijzen van Zanten (SCRUM Master & dev)
 * Lennard Hartog (3D artist)
 * Yessie Blaas (2D artist)
