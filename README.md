@@ -5,7 +5,7 @@ In deze repository vind je de informatie over het examen project.
 # Meet the team
 
 * Milan Breuren (Product owner & dev)
-* Zakaraie el Ghoul (Lead dev)
+* Zakarai El Ghoul (Lead dev)
 * Nanne Veldhuijzen van Zanten (SCRUM Master & dev)
 * Lennard Hartog (3D artist)
 * Yessie Blaas (2D artist)
@@ -23,21 +23,24 @@ Lees een complete uitleg over het spel [hier](https://github.com/Zakaria-ElGhoul
 
 # Geproduceerde Game Onderdelen
 
-Geef per teammember aan welke game onderdelen je hebt geproduceerd. Doe dit met behulp van omschrijvingen visual sheets en screenshots.
-Maak ook een overzicht van alle onderdelen met een link naar de map waarin deze terug te vinden zijn.
+Hier laten wij per teamlid ons meest belangrijke onderdeel van het spel zien. In het [technisch ontwerp](https://github.com/Zakaria-ElGhoul/PvB-Marine/wiki/Technisch-ontwerp) gaan wij hier verder opin.
 
 Zakaria (dev):
-  * [Wave System](https://github.com/erwinhenraat/VoorbeeldExamenRepo/tree/master/src/some)
-  * [Some other mechanic X](https://github.com/erwinhenraat/VoorbeeldExamenRepo/tree/master/src/mechanic_x)
-  * [Some other mechanic Y](https://github.com/erwinhenraat/VoorbeeldExamenRepo/tree/master/src/mechanic_y)
+  * [Buoyancy Shader](https://github.com/erwinhenraat/VoorbeeldExamenRepo/tree/master/src/some)
+  * [A.I. BlackBoard](https://github.com/erwinhenraat/VoorbeeldExamenRepo/tree/master/src/mechanic_x)
+  * [Turn System](https://github.com/erwinhenraat/VoorbeeldExamenRepo/tree/master/src/mechanic_y)
+  * [U.I. Shader]()
+
 Milan (dev):
-  * Water Shader
-  * [Some textured and rigged model](https://github.com/erwinhenraat/VoorbeeldExamenRepo/tree/master/assets/monsters)
+  * [Card System]()
+  * [Action Visuals](https://github.com/erwinhenraat/VoorbeeldExamenRepo/tree/master/assets/monsters)
+  * [Enemy A.I.]()
+  * [Attack System]()
 
 Nanne (dev):
-  * [Some beautifull script](https://github.com/erwinhenraat/VoorbeeldExamenRepo/tree/master/src/beautifull)
-  * Some other Game object
-
+  * [Inspect Cards](https://blueprintue.com/blueprint/1pgupew1/)
+  * [Mana System]()
+  * [Select Target System]()
 
 ## Wave System by Student X
 
