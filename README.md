@@ -2,26 +2,39 @@
 
 In deze repository vind je de informatie over het examen project.
 
-Omschrijf de examenopdracht evt de klant en wat het doel voor de klant is.
-Omschrijf ook beknopt wat het idee van je game is. 
-Een complete en uitgebreide beschrijving komt in het functioneel ontwerp (onderdeel van de [wiki](https://github.com/erwinhenraat/VoorbeeldExamenRepo/wiki))
+# Meet the team
+
+* Milan Breuren (Product owner & dev)
+* Zakaraie el Ghoul (Lead dev)
+* Nanne Veldhuijzen van Zanten (SCRUM Master & dev)
+* Lennard Hartog (3D artist)
+* Yessie Blaas (2D artist)
+* Isa Schulte (Lead 3D artist & notulist)
+* Jesper Ceria (Lead 2D artist)
+
+# De Opdracht
+
+De opdracht die wij hebben gekregen was: Ontwikkel een maritieme strategiegame met minimaal 2 verschillende scenario’sof levels.De speler(s) heeft/hebben in de game detaak om schepen te herkennen en deze op de juiste manier strategisch in te zetten. De strategische inzet is op basis van hun typeen daarbij horende eigenschappen en functionaliteit. Door deze strategische inzet moet het doel van de game of het level worden bereikt. De game moet vooral draaien omherkenbare, vriendschappelijke, Nederlandse en internationale(NAVO) marineschepen. Jullie doen zelf onderzoek naar de verschillende schepen die interessant kunnen zijn om in de game te verwerken. Jullie zorgen ervoordat de uit gewerkte game-mechanics goed aansluiten op de werkelijke toepassing van de gekozen schepen.
+
+Het doel voor de klant is om jongeren aan te trekken tot de marine, dat willen wij bereiken door het spel simpel te maken en toegankelijk voor jongeren.
+We hebben besloten om een strategisch kaartspel te maken in Unreal Engine 5 waar de speler goed moet focusen om de goede keuzes te kunnen maken om zo de vijand te kunnen verslaan. Tijdens de game leert de speler de verschillende sterktes en zwaktes van de schepen waar de speler mee speelt. Op deze manier willen we de speler interesse laten tonen in de marine. 
+
+Lees een complete uitleg over het spel [hier](https://github.com/erwinhenraat/VoorbeeldExamenRepo/wiki)
 
 # Geproduceerde Game Onderdelen
 
 Geef per teammember aan welke game onderdelen je hebt geproduceerd. Doe dit met behulp van omschrijvingen visual sheets en screenshots.
 Maak ook een overzicht van alle onderdelen met een link naar de map waarin deze terug te vinden zijn.
 
-Bijv..
-
-Student X:
+Zakaria (dev):
   * [Wave System](https://github.com/erwinhenraat/VoorbeeldExamenRepo/tree/master/src/some)
   * [Some other mechanic X](https://github.com/erwinhenraat/VoorbeeldExamenRepo/tree/master/src/mechanic_x)
   * [Some other mechanic Y](https://github.com/erwinhenraat/VoorbeeldExamenRepo/tree/master/src/mechanic_y)
-Student Y:
+Milan (dev):
   * Water Shader
   * [Some textured and rigged model](https://github.com/erwinhenraat/VoorbeeldExamenRepo/tree/master/assets/monsters)
 
-Student Z:
+Nanne (dev):
   * [Some beautifull script](https://github.com/erwinhenraat/VoorbeeldExamenRepo/tree/master/src/beautifull)
   * Some other Game object
 
