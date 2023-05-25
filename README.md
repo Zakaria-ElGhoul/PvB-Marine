@@ -23,7 +23,7 @@ Lees een complete uitleg over het spel [hier](https://github.com/Zakaria-ElGhoul
 
 # Geproduceerde Game Onderdelen
 
-Hier laten wij per teamlid ons meest belangrijke onderdeel van het spel zien. In het [technisch ontwerp](https://github.com/Zakaria-ElGhoul/PvB-Marine/wiki/Technisch-ontwerp) gaan wij hier verder opin.
+Hier laten wij per teamlid ons meest belangrijke onderdeel van het spel zien. In het [technisch ontwerp](https://github.com/Zakaria-ElGhoul/PvB-Marine/wiki/Technisch-ontwerp) gaan wij hier verder op in.
 
 Zakaria (dev):
   * [Buoyancy Shader](https://github.com/erwinhenraat/VoorbeeldExamenRepo/tree/master/src/some)
