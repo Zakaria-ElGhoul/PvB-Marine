@@ -42,11 +42,11 @@ Nanne (dev):
   * [Mana System]()
   * [Select Target System]()
 
-## Wave System by Student X
+## Enemy AI
 
-Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line.
+Enemy AI heeft 3 states: DrawCard, PlayCard en Attack. In de eerste state kiest de AI één van de beschikbare kaarten uit, hij kijkt ook of hij genoeg 'mana' heeft om ze te gebruiken. Als hij dat allemaal gedaan hebt, dan slaat hij al die waardes op om ze vervolgens in de volgende state te gebruiken. In playCard pakt hij een willekeurige schip om vervolgens zijn kaart effect te boosten. Als dat gedaan is, dan gaat hij over naar attack, in attack kiest hij een willekeurige doelwit uit. nadat hij dat gedaan heeft, kan hij niet meer zijn behavior tree meer afgaan totdat de speler zijn zet heeft gedaan.
 
-![Animation](https://user-images.githubusercontent.com/1262745/217570184-90dc4701-d60d-4816-80d0-5007fdd3f6be.gif)
+![Screenshot (107)](https://github.com/Zakaria-ElGhoul/PvB-Marine/assets/57196554/a848f7f0-4579-4116-9269-090679b3a68d)
 
 ### flowchart voor turn based combat system:
 ```mermaid
