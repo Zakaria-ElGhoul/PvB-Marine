@@ -23,19 +23,24 @@ Lees een complete uitleg over het spel [hier](https://github.com/Zakaria-ElGhoul
 
 # Geproduceerde Game Onderdelen
 
-Hier laten wij per teamlid ons meest belangrijke onderdeel van het spel zien. In het [technisch ontwerp]( gaan wij hier verder opin.
+Hier laten wij per teamlid ons meest belangrijke onderdeel van het spel zien. In het [technisch ontwerp](https://github.com/Zakaria-ElGhoul/PvB-Marine/wiki/Technisch-ontwerp) gaan wij hier verder opin.
 
 Zakaria (dev):
-  * [Buoyancy ](https://github.com/erwinhenraat/VoorbeeldExamenRepo/tree/master/src/some)
-  * [Some other mechanic X](https://github.com/erwinhenraat/VoorbeeldExamenRepo/tree/master/src/mechanic_x)
-  * [Some other mechanic Y](https://github.com/erwinhenraat/VoorbeeldExamenRepo/tree/master/src/mechanic_y)
+  * [Buoyancy Shader](https://github.com/erwinhenraat/VoorbeeldExamenRepo/tree/master/src/some)
+  * [A.I. BlackBoard](https://github.com/erwinhenraat/VoorbeeldExamenRepo/tree/master/src/mechanic_x)
+  * [Turn System](https://github.com/erwinhenraat/VoorbeeldExamenRepo/tree/master/src/mechanic_y)
+  * [U.I. Shader]
+
 Milan (dev):
-  * Water Shader
-  * [Some textured and rigged model](https://github.com/erwinhenraat/VoorbeeldExamenRepo/tree/master/assets/monsters)
+  * [Card System]
+  * [Action Visuals](https://github.com/erwinhenraat/VoorbeeldExamenRepo/tree/master/assets/monsters)
+  * [Enemy A.I.]
+  * [Attack System]
 
 Nanne (dev):
-  * [Some beautifull script](https://github.com/erwinhenraat/VoorbeeldExamenRepo/tree/master/src/beautifull)
-  * Some other Game object
+  * [Inspect Cards](https://github.com/erwinhenraat/VoorbeeldExamenRepo/tree/master/src/beautifull)
+  * [Mana System]
+  * [Select Target System] 
 
 ## Wave System by Student X
 
