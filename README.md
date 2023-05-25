@@ -38,7 +38,7 @@ Milan (dev):
   * [Attack System]
 
 Nanne (dev):
-  * [Inspect Cards](https://github.com/erwinhenraat/VoorbeeldExamenRepo/tree/master/src/beautifull)
+  * [Inspect Cards](https://blueprintue.com/blueprint/1pgupew1/)
   * [Mana System]
   * [Select Target System] 
 
