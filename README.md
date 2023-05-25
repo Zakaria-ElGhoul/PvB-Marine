@@ -26,7 +26,7 @@ Lees een complete uitleg over het spel [hier](https://github.com/Zakaria-ElGhoul
 Hier laten wij per teamlid ons meest belangrijke onderdeel van het spel zien. In het [technisch ontwerp](https://github.com/Zakaria-ElGhoul/PvB-Marine/wiki/Technisch-ontwerp) gaan wij hier verder op in.
 
 Zakaria (dev):
-  * [Buoyancy Shader]([https://blueprintue.com/blueprint/vs0mdc-f/]))
+  * [Buoyancy Shader](https://blueprintue.com/blueprint/vs0mdc-f/)
   * [A.I. BlackBoard](https://github.com/erwinhenraat/VoorbeeldExamenRepo/tree/master/src/mechanic_x)
   * [Turn System](https://github.com/erwinhenraat/VoorbeeldExamenRepo/tree/master/src/mechanic_y)
   * [U.I. Shader]()
