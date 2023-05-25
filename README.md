@@ -23,11 +23,10 @@ Lees een complete uitleg over het spel [hier](https://github.com/Zakaria-ElGhoul
 
 # Geproduceerde Game Onderdelen
 
-Geef per teammember aan welke game onderdelen je hebt geproduceerd. Doe dit met behulp van omschrijvingen visual sheets en screenshots.
-Maak ook een overzicht van alle onderdelen met een link naar de map waarin deze terug te vinden zijn.
+Hier laten wij per teamlid ons meest belangrijke onderdeel van het spel zien. In het [technisch ontwerp]( gaan wij hier verder opin.
 
 Zakaria (dev):
-  * [Wave System](https://github.com/erwinhenraat/VoorbeeldExamenRepo/tree/master/src/some)
+  * [Buoyancy ](https://github.com/erwinhenraat/VoorbeeldExamenRepo/tree/master/src/some)
   * [Some other mechanic X](https://github.com/erwinhenraat/VoorbeeldExamenRepo/tree/master/src/mechanic_x)
   * [Some other mechanic Y](https://github.com/erwinhenraat/VoorbeeldExamenRepo/tree/master/src/mechanic_y)
 Milan (dev):
@@ -37,7 +36,6 @@ Milan (dev):
 Nanne (dev):
   * [Some beautifull script](https://github.com/erwinhenraat/VoorbeeldExamenRepo/tree/master/src/beautifull)
   * Some other Game object
-
 
 ## Wave System by Student X
 
