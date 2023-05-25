@@ -19,7 +19,7 @@ De opdracht die wij hebben gekregen was: Ontwikkel een maritieme strategiegame m
 Het doel voor de klant is om jongeren aan te trekken tot de marine, dat willen wij bereiken door het spel simpel te maken en toegankelijk voor jongeren.
 We hebben besloten om een strategisch kaartspel te maken in Unreal Engine 5 waar de speler goed moet focusen om de goede keuzes te kunnen maken om zo de vijand te kunnen verslaan. Tijdens de game leert de speler de verschillende sterktes en zwaktes van de schepen waar de speler mee speelt. Op deze manier willen we de speler interesse laten tonen in de marine. 
 
-Lees een complete uitleg over het spel [hier](https://github.com/erwinhenraat/VoorbeeldExamenRepo/wiki)
+Lees een complete uitleg over het spel [hier](https://github.com/Zakaria-ElGhoul/PvB-Marine/wiki/Functioneel-ontwerp)
 
 # Geproduceerde Game Onderdelen
 
