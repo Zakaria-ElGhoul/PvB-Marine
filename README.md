@@ -29,18 +29,18 @@ Zakaria (dev):
   * [Buoyancy Shader](https://github.com/erwinhenraat/VoorbeeldExamenRepo/tree/master/src/some)
   * [A.I. BlackBoard](https://github.com/erwinhenraat/VoorbeeldExamenRepo/tree/master/src/mechanic_x)
   * [Turn System](https://github.com/erwinhenraat/VoorbeeldExamenRepo/tree/master/src/mechanic_y)
-  * [U.I. Shader]
+  * [U.I. Shader]()
 
 Milan (dev):
-  * [Card System]
+  * [Card System]()
   * [Action Visuals](https://github.com/erwinhenraat/VoorbeeldExamenRepo/tree/master/assets/monsters)
-  * [Enemy A.I.]
-  * [Attack System]
+  * [Enemy A.I.]()
+  * [Attack System]()
 
 Nanne (dev):
   * [Inspect Cards](https://blueprintue.com/blueprint/1pgupew1/)
-  * [Mana System]
-  * [Select Target System] 
+  * [Mana System]()
+  * [Select Target System]()
 
 ## Wave System by Student X
 
