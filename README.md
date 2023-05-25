@@ -79,27 +79,26 @@ PlayerAlive --> PlayerTurn
 
 ```mermaid
 classDiagram
+    class ShipBase {
+        - costType
+        - name
+        - description
+        - cost
+        - effectAmount
+        - visual
+        + attack()
+    }
 
-Unit <|-- Tower:Is A
-Unit <|-- Monster
-Unit <|-- Boss
-Unit : +int life
-Unit : +int speed
-Unit: +isMovable()
-Unit: +Destroy()
-class Tower{
-+String turretType
-+target()
-+shoot()
-}
-class Monster{
--int reward
--regenerates()
-}
-class Boss{
-+bool is_unique
-+specialSkill()
-}
+    class AlliedShip {
+        + attack()
+    }
+
+    class EnemyShip {
+        + attack()
+    }
+
+    ShipBase <|-- AlliedShip
+    ShipBase <|-- EnemyShip
 ```
 
 
