@@ -27,15 +27,14 @@ Hier laten wij per teamlid ons meest belangrijke onderdeel van het spel zien. In
 
 Zakaria (dev):
   * [Buoyancy Shader](https://blueprintue.com/blueprint/vs0mdc-f/)
-  * [A.I. BlackBoard]()
-  * [Turn System]()
-  * [U.I. Shader]()
+  * [A.I. BlackBoard](https://github.com/Zakaria-ElGhoul/PvB-Marine/assets/43118035/b4cf25ed-3ff8-455e-9af4-30668ea6683e)
+  * [U.I. Shader](https://blueprintue.com/blueprint/slnvfsp7/)
 
 Milan (dev):
   * [Card System](https://blueprintue.com/blueprint/57a-2_4j/)
-  * [Action Visuals]()
-  * [Enemy A.I.](https://github.com/Zakaria-ElGhoul/PvB-Marine/edit/develop/README.md/Enemy AI)
-  * [Attack System]()
+  * [Action Visuals](https://blueprintue.com/blueprint/xyd16u-9/)
+  * [Enemy A.I.](https://github.com/Zakaria-ElGhoul/PvB-Marine/assets/43118035/b4cf25ed-3ff8-455e-9af4-30668ea6683e)
+  * [Attack System](https://blueprintue.com/blueprint/geuc3zgv/)
 
 Nanne (dev):
   * [Inspect Cards](https://blueprintue.com/blueprint/1pgupew1/)
