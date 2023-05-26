@@ -108,3 +108,9 @@ We hebben een resource systeem voor het spel gemaakt om de speler meer na te lat
 [Blueprint](https://blueprintue.com/blueprint/_84l9xv1/)
 
 ![ezgif-5-9758fd17b7](https://github.com/Zakaria-ElGhoul/PvB-Marine/assets/43118035/93196a74-37ab-469a-9dea-f33ab90fff46)
+
+## Outline post process shader
+Ik (Zaka) heb een post process shader gemaakt voor de kaarten en schepen als je erover heen hovered met jou muis. Het maakt het duidelijker voor de speler zodat hij weet dat hij erover heen gaat en kan weten wat hij kan aanklikken of slepen. De outline shader werkt op basis van een custom depth stencil. De custom depth stencil maakt het mogelijk om objecten te omzeilen omdat het op basis werkt van een Post Processing Shader. Je kan dus objecten op bepaalde lagen excluden. 
+
+[Blueprint](https://blueprintue.com/blueprint/y9_6u7wu/)
+![image](https://github.com/Zakaria-ElGhoul/PvB-Marine/assets/55205430/f670eabe-25fb-4a06-a023-b9c7f5f46d04)
