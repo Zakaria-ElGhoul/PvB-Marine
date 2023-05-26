@@ -121,4 +121,4 @@ https://github.com/Zakaria-ElGhoul/PvB-Marine/assets/55205430/6db8fc45-88ee-44a9
 ![image](https://github.com/Zakaria-ElGhoul/PvB-Marine/assets/55205430/f670eabe-25fb-4a06-a023-b9c7f5f46d04)
 
 
-DE outline wordt enabled per mesh instance en per object moet het aangegeven worden wat de custom depth stencil value is. 
+De outline wordt enabled per mesh instance en per object moet het aangegeven worden wat de custom depth stencil value is. 
