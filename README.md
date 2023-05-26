@@ -27,13 +27,13 @@ Hier laten wij per teamlid ons meest belangrijke onderdeel van het spel zien. In
 
 Zakaria (dev):
   * [Buoyancy Shader](https://blueprintue.com/blueprint/vs0mdc-f/)
-  * [A.I. BlackBoard](https://github.com/erwinhenraat/VoorbeeldExamenRepo/tree/master/src/mechanic_x)
-  * [Turn System](https://github.com/erwinhenraat/VoorbeeldExamenRepo/tree/master/src/mechanic_y)
+  * [A.I. BlackBoard]()
+  * [Turn System]()
   * [U.I. Shader]()
 
 Milan (dev):
   * [Card System]()
-  * [Action Visuals](https://github.com/erwinhenraat/VoorbeeldExamenRepo/tree/master/assets/monsters)
+  * [Action Visuals]()
   * [Enemy A.I.]()
   * [Attack System]()
 
