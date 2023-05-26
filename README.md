@@ -47,6 +47,13 @@ Enemy AI heeft 3 states: DrawCard, PlayCard en Attack. In de eerste state kiest 
 
 ![Screenshot (107)](https://github.com/Zakaria-ElGhoul/PvB-Marine/assets/57196554/a848f7f0-4579-4116-9269-090679b3a68d)
 
+## Card system en camera door Milan
+
+De card system is erg modulair, hij is zo gemaakt dat een andere developer hem zo gemakkelijk mogelijk kan toevoegen in zijn scene. De developer hoeft alleen BP_Cam, BP_EnemyCardHolder en BP_PlayerCardHolder toevoegen in de scene, vervolgens als de developer de scene opstart, dan zoeken de actors elkaar en maken een reference naar elkaar. Als er voor één of andere reden minder units of minder kaarten zijn, dan past hij zich automatisch aan.
+
+![image](https://github.com/Zakaria-ElGhoul/PvB-Marine/assets/57196554/67ad3448-0bd3-4b7a-a025-7b37a27b07d8)
+
+
 ### flowchart voor turn based combat system:
 ```mermaid
 
