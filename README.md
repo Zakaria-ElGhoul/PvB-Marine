@@ -5,7 +5,7 @@ In deze repository vind je de informatie over het examen project.
 # Meet the team
 
 * Milan Breuren (Product owner & dev)
-* Zakarai El Ghoul (Lead dev)
+* Zakaria El Ghoul (Lead dev)
 * Nanne Veldhuijzen van Zanten (SCRUM Master & dev)
 * Lennard Hartog (3D artist)
 * Yessie Blaas (2D artist)
@@ -14,7 +14,7 @@ In deze repository vind je de informatie over het examen project.
 
 # De Opdracht
 
-De opdracht die wij hebben gekregen was: Ontwikkel een maritieme strategiegame met minimaal 2 verschillende scenario’sof levels.De speler(s) heeft/hebben in de game detaak om schepen te herkennen en deze op de juiste manier strategisch in te zetten. De strategische inzet is op basis van hun typeen daarbij horende eigenschappen en functionaliteit. Door deze strategische inzet moet het doel van de game of het level worden bereikt. De game moet vooral draaien omherkenbare, vriendschappelijke, Nederlandse en internationale(NAVO) marineschepen. Jullie doen zelf onderzoek naar de verschillende schepen die interessant kunnen zijn om in de game te verwerken. Jullie zorgen ervoordat de uit gewerkte game-mechanics goed aansluiten op de werkelijke toepassing van de gekozen schepen.
+De opdracht die wij hebben gekregen was: Ontwikkel een maritieme strategiegame met minimaal 2 verschillende scenario’s of levels. De speler heeft in de game de taak om schepen te herkennen en deze op de juiste manier strategisch in te zetten. De strategische inzet is op basis van hun type en daarbij horende eigenschappen en functionaliteit. Door deze strategische inzet moet het doel van de game of het level worden bereikt. De game moet vooral draaien om herkenbare, vriendschappelijke, Nederlandse en internationale(NAVO) marineschepen. Jullie doen zelf onderzoek naar de verschillende schepen die interessant kunnen zijn om in de game te verwerken. Jullie zorgen ervoor dat de uit gewerkte game-mechanics goed aansluiten op de werkelijke toepassing van de gekozen schepen.
 
 Het doel voor de klant is om jongeren aan te trekken tot de marine, dat willen wij bereiken door het spel simpel te maken en toegankelijk voor jongeren.
 We hebben besloten om een strategisch kaartspel te maken in Unreal Engine 5 waar de speler goed moet focusen om de goede keuzes te kunnen maken om zo de vijand te kunnen verslaan. Tijdens de game leert de speler de verschillende sterktes en zwaktes van de schepen waar de speler mee speelt. Op deze manier willen we de speler interesse laten tonen in de marine. 
@@ -23,10 +23,10 @@ Lees een complete uitleg over het spel [hier](https://github.com/Zakaria-ElGhoul
 
 # Geproduceerde Game Onderdelen
 
-Hier laten wij per teamlid ons meest belangrijke onderdeel van het spel zien. In het [technisch ontwerp](https://github.com/Zakaria-ElGhoul/PvB-Marine/wiki/Technisch-ontwerp) gaan wij hier verder opin.
+Hier laten wij per teamlid ons meest belangrijke onderdeel van het spel zien. In het [technisch ontwerp](https://github.com/Zakaria-ElGhoul/PvB-Marine/wiki/Technisch-ontwerp) gaan wij hier verder op in.
 
 Zakaria (dev):
-  * [Buoyancy Shader](https://github.com/erwinhenraat/VoorbeeldExamenRepo/tree/master/src/some)
+  * [Buoyancy Shader](https://blueprintue.com/blueprint/vs0mdc-f/)
   * [A.I. BlackBoard](https://github.com/erwinhenraat/VoorbeeldExamenRepo/tree/master/src/mechanic_x)
   * [Turn System](https://github.com/erwinhenraat/VoorbeeldExamenRepo/tree/master/src/mechanic_y)
   * [U.I. Shader]()
@@ -42,11 +42,11 @@ Nanne (dev):
   * [Mana System]()
   * [Select Target System]()
 
-## Wave System by Student X
+## Enemy AI
 
-Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line.
+Enemy AI heeft 3 states: DrawCard, PlayCard en Attack. In de eerste state kiest de AI één van de beschikbare kaarten uit, hij kijkt ook of hij genoeg 'mana' heeft om ze te gebruiken. Als hij dat allemaal gedaan hebt, dan slaat hij al die waardes op om ze vervolgens in de volgende state te gebruiken. In playCard pakt hij een willekeurige schip om vervolgens zijn kaart effect te boosten. Als dat gedaan is, dan gaat hij over naar attack, in attack kiest hij een willekeurige doelwit uit. nadat hij dat gedaan heeft, kan hij niet meer zijn behavior tree meer afgaan totdat de speler zijn zet heeft gedaan.
 
-![Animation](https://user-images.githubusercontent.com/1262745/217570184-90dc4701-d60d-4816-80d0-5007fdd3f6be.gif)
+![Screenshot (107)](https://github.com/Zakaria-ElGhoul/PvB-Marine/assets/57196554/a848f7f0-4579-4116-9269-090679b3a68d)
 
 ### flowchart voor turn based combat system:
 ```mermaid
@@ -79,27 +79,26 @@ PlayerAlive --> PlayerTurn
 
 ```mermaid
 classDiagram
+    class ShipBase {
+        - costType
+        - name
+        - description
+        - cost
+        - effectAmount
+        - visual
+        + attack()
+    }
 
-Unit <|-- Tower:Is A
-Unit <|-- Monster
-Unit <|-- Boss
-Unit : +int life
-Unit : +int speed
-Unit: +isMovable()
-Unit: +Destroy()
-class Tower{
-+String turretType
-+target()
-+shoot()
-}
-class Monster{
--int reward
--regenerates()
-}
-class Boss{
-+bool is_unique
-+specialSkill()
-}
+    class AlliedShip {
+        + attack()
+    }
+
+    class EnemyShip {
+        + attack()
+    }
+
+    ShipBase <|-- AlliedShip
+    ShipBase <|-- EnemyShip
 ```
 
 
