@@ -2,7 +2,7 @@
 
 In deze repository vind je de informatie over het examen project.
 
-# Meet the team
+# Nautical Strike Game Studio Members
 
 * Milan Breuren (Product owner & dev)
 * Zakaria El Ghoul (Lead dev)
