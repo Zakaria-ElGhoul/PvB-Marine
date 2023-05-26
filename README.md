@@ -34,7 +34,7 @@ Zakaria (dev):
 Milan (dev):
   * [Card System](https://blueprintue.com/blueprint/57a-2_4j/)
   * [Action Visuals]()
-  * [Enemy A.I.]()
+  * [Enemy A.I.](https://github.com/Zakaria-ElGhoul/PvB-Marine/edit/develop/README.md/Enemy AI)
   * [Attack System]()
 
 Nanne (dev):
