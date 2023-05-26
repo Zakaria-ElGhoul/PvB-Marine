@@ -2,7 +2,7 @@
 
 In deze repository vind je de informatie over het examen project.
 
-# Meet the team
+# Nautical Strike Game Studio Members
 
 * Milan Breuren (Product owner & dev)
 * Zakaria El Ghoul (Lead dev)
@@ -27,20 +27,19 @@ Hier laten wij per teamlid ons meest belangrijke onderdeel van het spel zien. In
 
 Zakaria (dev):
   * [Buoyancy Shader](https://blueprintue.com/blueprint/vs0mdc-f/)
-  * [A.I. BlackBoard]()
-  * [Turn System]()
-  * [U.I. Shader]()
+  * [A.I. BlackBoard](https://github.com/Zakaria-ElGhoul/PvB-Marine/assets/43118035/b4cf25ed-3ff8-455e-9af4-30668ea6683e)
+  * [U.I. Shader](https://blueprintue.com/blueprint/slnvfsp7/)
 
 Milan (dev):
-  * [Card System]()
-  * [Action Visuals]()
-  * [Enemy A.I.]()
-  * [Attack System]()
+  * [Card System](https://blueprintue.com/blueprint/57a-2_4j/)
+  * [Action Visuals](https://blueprintue.com/blueprint/xyd16u-9/)
+  * [Enemy A.I.](https://github.com/Zakaria-ElGhoul/PvB-Marine/assets/43118035/b4cf25ed-3ff8-455e-9af4-30668ea6683e)
+  * [Attack System](https://blueprintue.com/blueprint/geuc3zgv/)
 
 Nanne (dev):
   * [Inspect Cards](https://blueprintue.com/blueprint/1pgupew1/)
-  * [Mana System]()
-  * [Select Target System]()
+  * [Resource System](https://blueprintue.com/blueprint/90r_fd0s/)
+  * [Select Target System](https://blueprintue.com/blueprint/zbj60y91/)
 
 ## Enemy AI
 
@@ -102,38 +101,10 @@ classDiagram
 ```
 
 
-## Some other Mechanic X by Student X
+## Resource System
 
-Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+We hebben een resource systeem voor het spel gemaakt om de speler meer na te laten denken over wat hij kan doen in een zet. Elke kaart heeft een bepaalde cost om te kunnen spelen hierdoor moet je goed nadenken wat je in je huidige zet en volgende zet kan spelen om de vijand te slim af te zijn. Het werkt zo; aan het begin van het spel krijgen beide spelers 5 "mana". Telkens als het weer de beurt van de speler is dan komt er 5 "mana" bij. Dus de speler hebben elke turn een gelijk aantal aan resources. Als je genoeg resources heb en een kaart speel dan gaan de resources van die gespeelde kaart van je huidige resources af en eindigt je beurt. Als de turn switched dan worden je resources weer bd tot een maximaal aantal van 30.
 
-![example](https://user-images.githubusercontent.com/1262745/189135129-34d15823-0311-46b5-a041-f0bbfede9e78.png)
+[Blueprint](https://blueprintue.com/blueprint/_84l9xv1/)
 
-## Some other Mechanic Y by Student X
-
-Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-
-![example](https://user-images.githubusercontent.com/1262745/189135129-34d15823-0311-46b5-a041-f0bbfede9e78.png)
-
-## Water Shader by Student Y
-
-Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-
-![example](https://user-images.githubusercontent.com/1262745/189135129-34d15823-0311-46b5-a041-f0bbfede9e78.png)
-
-## Some textured and rigged model by Student Y
-
-Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-
-![example](https://user-images.githubusercontent.com/1262745/189135129-34d15823-0311-46b5-a041-f0bbfede9e78.png)
-
-## Some beautifull script by Student Z
-
-Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-
-![example](https://user-images.githubusercontent.com/1262745/189135129-34d15823-0311-46b5-a041-f0bbfede9e78.png)
-
-## Some other Game object by Student Z
-
-Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-
-![example](https://user-images.githubusercontent.com/1262745/189135129-34d15823-0311-46b5-a041-f0bbfede9e78.png)
+![ezgif-5-9758fd17b7](https://github.com/Zakaria-ElGhoul/PvB-Marine/assets/43118035/93196a74-37ab-469a-9dea-f33ab90fff46)
