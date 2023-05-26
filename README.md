@@ -108,7 +108,7 @@ We hebben een resource systeem voor het spel gemaakt om de speler meer na te lat
 
 [Blueprint](https://blueprintue.com/blueprint/_84l9xv1/)
 
-https://gyazo.com/587774327b445cba23652852f37aca77
+![ezgif-5-9758fd17b7](https://github.com/Zakaria-ElGhoul/PvB-Marine/assets/43118035/93196a74-37ab-469a-9dea-f33ab90fff46)
 
 ## Some other Mechanic Y by Student X
 
